@@ -164,7 +164,7 @@ git init
 git add .gitignore README.md app\src\main app\build.gradle.kts build.gradle.kts gradle settings.gradle.kts gradlew gradlew.bat gradle.properties
 git commit -m "Add CyberDeckLab Android app starter"
 git branch -M main
-git remote add origin https://github.com/TUO-UTENTE/CyberDeckLab.git
+git remote add origin https://github.com/lapob/app-android-cyberdecklab.git
 git push -u origin main
 ```
 
