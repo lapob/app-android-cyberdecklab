@@ -21,16 +21,20 @@ attivita non autorizzate.
 
 ## Funzioni nell'app
 
-- `Mission router`: cambia modalita tra `Learn`, `Inspect` e `Field`.
-- `Scope`: imposta il contesto sicuro del laboratorio tra `Local lab`, `Demo data` e `Classroom`.
-- `Terminal strip`: riga stile terminale con stato attuale, readiness, canale e scope.
-- `Module cards`: mostra stato percentuale di runtime, decoder, simulazione segnale e regole.
-- `Deck controls`: regola budget energetico, focus segnale simulato e canale quieto.
-- `Decoder lab`: inserisci testo di prova e ottieni caratteri, byte, Base64, Hex e SHA-256.
-- `Lesson queue`: mostra missioni didattiche diverse in base alla modalita scelta.
-- `Launch checklist`: tiene traccia dei passaggi prima del test su telefono.
-- `Device debug`: mostra dispositivo, API Android, package e versione app.
-- `Live feed`: riepilogo operativo con percorso dell'APK debug.
+CyberDeckLab ora funziona come una piccola toolbox locale, piu vicina
+all'esperienza di un dispositivo tipo Flipper Zero: apri la scheda, tocchi un
+tool, inserisci un valore e leggi subito il risultato.
+
+- `Codec`: converte testo in Base64, Hex e SHA-256. Prova con `CyberDeckLab`,
+  `hello`, `admin:test` o una stringa Base64 come `Q3liZXJEZWNrTGFi`.
+- `Pass Audit`: valuta localmente una password o passphrase. Prova prima
+  `password123`, poi `CorrectHorseBatteryStaple42!` e confronta score e note.
+- `IPv4 CIDR`: calcola rete, netmask, wildcard, broadcast, host range e host
+  usabili. Prova `192.168.1.42/24`, `10.0.0.8/30` o `172.16.5.10/20`.
+- `ADB Kit`: mostra i comandi principali per build, install, avvio e logcat.
+- `Device`: mostra device, API Android, package, versione e tipo installer.
+- `Run checklist`: checklist rapida per ricordare test, scope autorizzato e log.
+- `Terminal strip`: riga stile terminale che mostra tool attivo e readiness.
 
 ## Preparare il telefono
 
