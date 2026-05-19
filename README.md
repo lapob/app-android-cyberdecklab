@@ -10,7 +10,7 @@ attivita non autorizzate.
 
 ## Stato attuale
 
-- App Compose funzionante con dashboard, moduli, modalita, controlli e checklist.
+- App Compose funzionante con dashboard, moduli, modalita, controlli, strumenti didattici e checklist.
 - Package Android: `com.example.cyberdecklab`.
 - APK debug generato in `app\build\outputs\apk\debug\app-debug.apk`.
 - Verifica locale del 2026-05-19:
@@ -18,6 +18,19 @@ attivita non autorizzate.
   - `assembleDebug` passato.
   - installazione debug riuscita su telefono Android collegato via USB.
   - avvio da ADB riuscito senza crash dell'app nei log.
+
+## Funzioni nell'app
+
+- `Mission router`: cambia modalita tra `Learn`, `Inspect` e `Field`.
+- `Scope`: imposta il contesto sicuro del laboratorio tra `Local lab`, `Demo data` e `Classroom`.
+- `Terminal strip`: riga stile terminale con stato attuale, readiness, canale e scope.
+- `Module cards`: mostra stato percentuale di runtime, decoder, simulazione segnale e regole.
+- `Deck controls`: regola budget energetico, focus segnale simulato e canale quieto.
+- `Decoder lab`: inserisci testo di prova e ottieni caratteri, byte, Base64, Hex e SHA-256.
+- `Lesson queue`: mostra missioni didattiche diverse in base alla modalita scelta.
+- `Launch checklist`: tiene traccia dei passaggi prima del test su telefono.
+- `Device debug`: mostra dispositivo, API Android, package e versione app.
+- `Live feed`: riepilogo operativo con percorso dell'APK debug.
 
 ## Preparare il telefono
 
